@@ -15,4 +15,6 @@ const students = [
 ];
 const searchStudent = "John";
 console.log(findStudentIndex(students, searchStudent));
+
 // ตอบคำถามตรงนี้จ้า
+// O(log n) เนื่องจากรอบการทำงานของ binary search จะเพิ่มตามขนาดของข้อมูลในลักษณะ log n ฐาน 2
